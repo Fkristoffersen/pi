@@ -1,0 +1,49 @@
+[2022-06-24 08:08:48.082] [exthost] [info] Extension host with pid 1600 started
+[2022-06-24 08:08:48.092] [exthost] [error] Error: EEXIST: file already exists, open '/home/pi/.vscode-server/data/User/workspaceStorage/3e64d3c57b98f012603ebf39fecbf601/vscode.lock'
+[2022-06-24 08:08:48.114] [exthost] [info] Lock '/home/pi/.vscode-server/data/User/workspaceStorage/3e64d3c57b98f012603ebf39fecbf601/vscode.lock': Could not acquire lock, checking if the file is stale.
+[2022-06-24 08:08:48.121] [exthost] [info] Lock '/home/pi/.vscode-server/data/User/workspaceStorage/3e64d3c57b98f012603ebf39fecbf601/vscode.lock': The lock looks stale, waiting for 2s.
+[2022-06-24 08:08:48.311] [exthost] [info] ExtensionService#_doActivateExtension ms-python.python, startup: false, activationEvent: 'onLanguage:python'
+[2022-06-24 08:08:49.686] [exthost] [info] ExtensionService#_doActivateExtension ms-toolsai.jupyter, startup: false, activationEvent: 'onLanguage:python'
+[2022-06-24 08:08:50.889] [exthost] [info] ExtensionService#_doActivateExtension vscode.debug-auto-launch, startup: true, activationEvent: '*'
+[2022-06-24 08:08:50.900] [exthost] [info] ExtensionService#_doActivateExtension vscode.git-base, startup: true, activationEvent: '*', root cause: vscode.git
+[2022-06-24 08:08:50.913] [exthost] [info] ExtensionService#_doActivateExtension vscode.ipynb, startup: true, activationEvent: '*'
+[2022-06-24 08:08:51.012] [exthost] [info] Lock '/home/pi/.vscode-server/data/User/workspaceStorage/3e64d3c57b98f012603ebf39fecbf601/vscode.lock': The lock looks stale even after waiting for 2s.
+[2022-06-24 08:08:51.013] [exthost] [info] Lock '/home/pi/.vscode-server/data/User/workspaceStorage/3e64d3c57b98f012603ebf39fecbf601/vscode.lock': Deleting a stale lock.
+[2022-06-24 08:08:51.080] [exthost] [info] Lock '/home/pi/.vscode-server/data/User/workspaceStorage/3e64d3c57b98f012603ebf39fecbf601/vscode.lock': Lock acquired.
+[2022-06-24 08:08:51.831] [exthost] [info] ExtensionService#_doActivateExtension vscode.git, startup: true, activationEvent: '*'
+[2022-06-24 08:08:52.058] [exthost] [info] ExtensionService#_doActivateExtension vscode.github, startup: true, activationEvent: '*'
+[2022-06-24 08:08:52.409] [exthost] [info] ExtensionService#_doActivateExtension vscode.emmet, startup: false, activationEvent: 'onStartupFinished'
+[2022-06-24 08:08:52.463] [exthost] [info] ExtensionService#_doActivateExtension vscode.merge-conflict, startup: false, activationEvent: 'onStartupFinished'
+[2022-06-24 08:08:52.479] [exthost] [info] Eager extensions activated
+[2022-06-24 08:08:54.066] [exthost] [info] ExtensionService#_doActivateExtension ms-toolsai.jupyter-renderers, startup: false, activationEvent: 'api', root cause: ms-toolsai.jupyter
+[2022-06-24 08:08:54.485] [exthost] [info] ExtensionService#_doActivateExtension ms-python.vscode-pylance, startup: false, activationEvent: 'onLanguage:python'
+[2022-06-24 08:08:54.645] [exthost] [error] Activating extension ms-python.vscode-pylance failed due to an error:
+[2022-06-24 08:08:54.645] [exthost] [error] TypeError: Cannot read properties of undefined (reading 'length')
+	at /home/pi/.vscode-server/extensions/ms-python.vscode-pylance-2022.6.30/dist/extension.bundle.js:1:66716
+	at Object._0x52fe48.f.<computed> [as require] (/home/pi/.vscode-server/extensions/ms-python.vscode-pylance-2022.6.30/dist/extension.bundle.js:1:66802)
+	at /home/pi/.vscode-server/extensions/ms-python.vscode-pylance-2022.6.30/dist/extension.bundle.js:1:65364
+	at Array.reduce (<anonymous>)
+	at Function._0x52fe48.e (/home/pi/.vscode-server/extensions/ms-python.vscode-pylance-2022.6.30/dist/extension.bundle.js:1:65314)
+	at Function._0x52fe48.x (/home/pi/.vscode-server/extensions/ms-python.vscode-pylance-2022.6.30/dist/extension.bundle.js:1:66911)
+	at /home/pi/.vscode-server/extensions/ms-python.vscode-pylance-2022.6.30/dist/extension.bundle.js:1:66983
+	at Object.<anonymous> (/home/pi/.vscode-server/extensions/ms-python.vscode-pylance-2022.6.30/dist/extension.bundle.js:1:67023)
+	at Module._compile (node:internal/modules/cjs/loader:1101:14)
+	at Object.Module._extensions..js (node:internal/modules/cjs/loader:1153:10)
+	at Module.load (node:internal/modules/cjs/loader:981:32)
+	at Function.Module._load (node:internal/modules/cjs/loader:822:12)
+	at Function.s._load (/home/pi/.vscode-server/bin/30d9c6cd9483b2cc586687151bcbcd635f373630/out/vs/workbench/api/node/extensionHostProcess.js:102:32307)
+	at Function.w._load (/home/pi/.vscode-server/bin/30d9c6cd9483b2cc586687151bcbcd635f373630/out/vs/workbench/api/node/extensionHostProcess.js:102:28750)
+	at Function.S._load (/home/pi/.vscode-server/bin/30d9c6cd9483b2cc586687151bcbcd635f373630/out/vs/workbench/api/node/extensionHostProcess.js:97:61578)
+	at Module.require (node:internal/modules/cjs/loader:1005:19)
+	at require (node:internal/modules/cjs/helpers:102:18)
+	at Function.r [as __$__nodeRequire] (/home/pi/.vscode-server/bin/30d9c6cd9483b2cc586687151bcbcd635f373630/out/vs/loader.js:5:101)
+	at g._loadCommonJSModule (/home/pi/.vscode-server/bin/30d9c6cd9483b2cc586687151bcbcd635f373630/out/vs/workbench/api/node/extensionHostProcess.js:102:30353)
+	at g._doActivateExtension (/home/pi/.vscode-server/bin/30d9c6cd9483b2cc586687151bcbcd635f373630/out/vs/workbench/api/node/extensionHostProcess.js:88:14758)
+	at g._activateExtension (/home/pi/.vscode-server/bin/30d9c6cd9483b2cc586687151bcbcd635f373630/out/vs/workbench/api/node/extensionHostProcess.js:88:13706)
+	at Object.actualActivateExtension (/home/pi/.vscode-server/bin/30d9c6cd9483b2cc586687151bcbcd635f373630/out/vs/workbench/api/node/extensionHostProcess.js:88:9881)
+	at S._activate (/home/pi/.vscode-server/bin/30d9c6cd9483b2cc586687151bcbcd635f373630/out/vs/workbench/api/node/extensionHostProcess.js:83:8197)
+	at S._waitForDepsThenActivate (/home/pi/.vscode-server/bin/30d9c6cd9483b2cc586687151bcbcd635f373630/out/vs/workbench/api/node/extensionHostProcess.js:83:8133)
+	at async S._initialize (/home/pi/.vscode-server/bin/30d9c6cd9483b2cc586687151bcbcd635f373630/out/vs/workbench/api/node/extensionHostProcess.js:83:7486)
+[2022-06-24 10:13:02.787] [exthost] [info] Extension host terminating: renderer disconnected for too long (2)
+[2022-06-24 10:13:02.788] [exthost] [info] Lock '/home/pi/.vscode-server/data/User/workspaceStorage/3e64d3c57b98f012603ebf39fecbf601/vscode.lock': Marking the lockfile as scheduled to be released in 6000 ms.
+[2022-06-24 10:13:02.842] [exthost] [info] Extension host with pid 1600 exiting with code 0

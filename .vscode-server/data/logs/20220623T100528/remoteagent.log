@@ -1,0 +1,21 @@
+[2022-06-23 10:05:29.042] [remoteagent] [info] Extension host agent started.
+[2022-06-23 10:05:29.626] [remoteagent] [error] [127.0.0.1][a2cfea15][ManagementConnection] Unknown reconnection token (never seen).
+[2022-06-23 10:05:29.743] [remoteagent] [error] [/home/pi/.vscode-server/extensions/ms-python.vscode-pylance-2022.6.30]: Failed to parse /home/pi/.vscode-server/extensions/ms-python.vscode-pylance-2022.6.30/package.nls.json: Value expected.
+[2022-06-23 10:05:29.746] [remoteagent] [error] [127.0.0.1][f8e740c0][ExtensionHostConnection] Unknown reconnection token (never seen).
+[2022-06-23 10:05:29.748] [remoteagent] [error] [/home/pi/.vscode-server/extensions/ms-python.vscode-pylance-2022.6.30]: Failed to parse /home/pi/.vscode-server/extensions/ms-python.vscode-pylance-2022.6.30/package.nls.json: Value expected.
+[2022-06-23 10:05:29.908] [remoteagent] [error] [/home/pi/.vscode-server/extensions/ms-python.vscode-pylance-2022.6.30]: Failed to parse /home/pi/.vscode-server/extensions/ms-python.vscode-pylance-2022.6.30/package.nls.json: Value expected.
+[2022-06-23 10:05:38.126] [remoteagent] [info] [127.0.0.1][a6e67dee][ManagementConnection] New connection established.
+[2022-06-23 10:05:38.176] [remoteagent] [info] [127.0.0.1][6ad24ec7][ExtensionHostConnection] New connection established.
+[2022-06-23 10:05:38.190] [remoteagent] [info] [127.0.0.1][6ad24ec7][ExtensionHostConnection] <1371> Launched Extension Host Process.
+[2022-06-23 10:05:38.792] [remoteagent] [error] [/home/pi/.vscode-server/extensions/ms-python.vscode-pylance-2022.6.30]: Failed to parse /home/pi/.vscode-server/extensions/ms-python.vscode-pylance-2022.6.30/package.nls.json: Value expected.
+[2022-06-23 10:05:38.811] [remoteagent] [error] [/home/pi/.vscode-server/extensions/ms-python.vscode-pylance-2022.6.30]: Failed to parse /home/pi/.vscode-server/extensions/ms-python.vscode-pylance-2022.6.30/package.nls.json: Value expected.
+[2022-06-23 10:05:38.859] [remoteagent] [error] [/home/pi/.vscode-server/extensions/ms-python.vscode-pylance-2022.6.30]: Failed to parse /home/pi/.vscode-server/extensions/ms-python.vscode-pylance-2022.6.30/package.nls.json: Value expected.
+[2022-06-23 10:05:40.498] [remoteagent] [error] [/home/pi/.vscode-server/extensions/ms-python.vscode-pylance-2022.6.30]: Failed to parse /home/pi/.vscode-server/extensions/ms-python.vscode-pylance-2022.6.30/package.nls.json: Value expected.
+[2022-06-23 10:05:40.510] [remoteagent] [error] [/home/pi/.vscode-server/extensions/ms-python.vscode-pylance-2022.6.30]: Failed to parse /home/pi/.vscode-server/extensions/ms-python.vscode-pylance-2022.6.30/package.nls.json: Value expected.
+[2022-06-23 10:05:41.358] [remoteagent] [error] [/home/pi/.vscode-server/extensions/ms-python.vscode-pylance-2022.6.30]: Failed to parse /home/pi/.vscode-server/extensions/ms-python.vscode-pylance-2022.6.30/package.nls.json: Value expected.
+[2022-06-23 10:05:41.848] [remoteagent] [error] [/home/pi/.vscode-server/extensions/ms-python.vscode-pylance-2022.6.30]: Failed to parse /home/pi/.vscode-server/extensions/ms-python.vscode-pylance-2022.6.30/package.nls.json: Value expected.
+[2022-06-23 10:05:42.688] [remoteagent] [error] [/home/pi/.vscode-server/extensions/ms-python.vscode-pylance-2022.6.30]: Failed to parse /home/pi/.vscode-server/extensions/ms-python.vscode-pylance-2022.6.30/package.nls.json: Value expected.
+[2022-06-23 10:10:41.474] [remoteagent] [error] [/home/pi/.vscode-server/extensions/ms-python.vscode-pylance-2022.6.30]: Failed to parse /home/pi/.vscode-server/extensions/ms-python.vscode-pylance-2022.6.30/package.nls.json: Value expected.
+[2022-06-23 10:15:41.689] [remoteagent] [error] [/home/pi/.vscode-server/extensions/ms-python.vscode-pylance-2022.6.30]: Failed to parse /home/pi/.vscode-server/extensions/ms-python.vscode-pylance-2022.6.30/package.nls.json: Value expected.
+[2022-06-23 10:20:41.859] [remoteagent] [error] [/home/pi/.vscode-server/extensions/ms-python.vscode-pylance-2022.6.30]: Failed to parse /home/pi/.vscode-server/extensions/ms-python.vscode-pylance-2022.6.30/package.nls.json: Value expected.
+[2022-06-23 10:25:42.162] [remoteagent] [error] [/home/pi/.vscode-server/extensions/ms-python.vscode-pylance-2022.6.30]: Failed to parse /home/pi/.vscode-server/extensions/ms-python.vscode-pylance-2022.6.30/package.nls.json: Value expected.

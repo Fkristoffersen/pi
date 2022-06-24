@@ -1,0 +1,88 @@
+[2022-06-24T09:17:51.639Z] Log level: Info
+[2022-06-24T09:17:51.646Z] [info] Validating found git in: git
+[2022-06-24T09:17:51.767Z] [info] Using git 2.30.2 from git
+[2022-06-24T09:17:51.948Z] > git rev-parse --show-toplevel [135ms]
+[2022-06-24T09:17:51.948Z] fatal: not a git repository (or any of the parent directories): .git
+[2022-06-24T09:17:52.004Z] > git rev-parse --show-toplevel [27ms]
+[2022-06-24T09:17:52.004Z] fatal: not a git repository (or any of the parent directories): .git
+[2022-06-24T09:17:52.025Z] > git rev-parse --show-toplevel [5ms]
+[2022-06-24T09:17:52.025Z] fatal: not a git repository (or any of the parent directories): .git
+[2022-06-24T09:17:53.371Z] > git rev-parse --show-toplevel [1329ms]
+[2022-06-24T09:17:53.371Z] fatal: not a git repository (or any of the parent directories): .git
+[2022-06-24T09:17:53.414Z] > git rev-parse --show-toplevel [19ms]
+[2022-06-24T09:17:53.414Z] fatal: not a git repository (or any of the parent directories): .git
+[2022-06-24T10:02:32.786Z] > git rev-parse --show-toplevel [7ms]
+[2022-06-24T10:02:32.786Z] fatal: not a git repository (or any of the parent directories): .git
+[2022-06-24T10:06:24.150Z] > git rev-parse --show-toplevel [22ms]
+[2022-06-24T10:06:24.150Z] fatal: not a git repository (or any of the parent directories): .git
+[2022-06-24T10:06:35.341Z] > git rev-parse --show-toplevel [12ms]
+[2022-06-24T10:06:35.341Z] fatal: not a git repository (or any of the parent directories): .git
+[2022-06-24T10:07:14.461Z] > git rev-parse --show-toplevel [7ms]
+[2022-06-24T10:07:14.461Z] fatal: not a git repository (or any of the parent directories): .git
+[2022-06-24T10:07:18.970Z] > git rev-parse --show-toplevel [3ms]
+[2022-06-24T10:07:18.971Z] fatal: not a git repository (or any of the parent directories): .git
+[2022-06-24T10:13:48.540Z] > git init [46ms]
+[2022-06-24T10:13:48.541Z] hint: Using 'master' as the name for the initial branch. This default branch name
+hint: is subject to change. To configure the initial branch name to use in all
+hint: of your new repositories, which will suppress this warning, call:
+hint: 
+hint: 	git config --global init.defaultBranch <name>
+hint: 
+hint: Names commonly chosen instead of 'master' are 'main', 'trunk' and
+hint: 'development'. The just-created branch can be renamed via this command:
+hint: 
+hint: 	git branch -m <name>
+[2022-06-24T10:13:48.566Z] > git rev-parse --show-toplevel [3ms]
+[2022-06-24T10:13:48.586Z] > git rev-parse --git-dir --git-common-dir [2ms]
+[2022-06-24T10:13:48.613Z] [info] Open repository: /home/pi
+[2022-06-24T10:13:48.960Z] > git status -z -uall [321ms]
+[2022-06-24T10:13:49.075Z] > git show --textconv :ms.1.md [22ms]
+[2022-06-24T10:13:49.079Z] > git ls-files --stage -- /home/pi/ms.1.md [7ms]
+[2022-06-24T10:13:49.346Z] > git check-ignore -v -z --stdin [3ms]
+[2022-06-24T10:13:50.024Z] > git ls-files --stage -- /home/pi/ms.1.md [3ms]
+[2022-06-24T10:13:50.060Z] > git show --textconv :ms.1.md [3ms]
+[2022-06-24T10:13:55.430Z] > git symbolic-ref --short HEAD [3ms]
+[2022-06-24T10:13:55.458Z] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/master refs/remotes/master [8ms]
+[2022-06-24T10:13:55.499Z] > git remote --verbose [5ms]
+[2022-06-24T10:13:55.500Z] > git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname) [24ms]
+[2022-06-24T10:14:04.674Z] > git config --get commit.template [35ms]
+[2022-06-24T10:14:08.172Z] > git check-ignore -v -z --stdin [3ms]
+[2022-06-24T10:14:34.525Z] > git check-ignore -v -z --stdin [4ms]
+[2022-06-24T10:14:34.637Z] > git add -A -- . [45979ms]
+[2022-06-24T10:14:35.408Z] > git -c user.useConfigOnly=true commit --quiet --allow-empty-message --file - [748ms]
+[2022-06-24T10:14:35.408Z] Author identity unknown
+
+*** Please tell me who you are.
+
+Run
+
+  git config --global user.email "you@example.com"
+  git config --global user.name "Your Name"
+
+to set your account's default identity.
+Omit --global to set the identity only in this repository.
+
+fatal: no email was given and auto-detection is disabled
+[2022-06-24T10:14:35.434Z] > git config --get-all user.name [3ms]
+[2022-06-24T10:14:36.682Z] > git ls-files --stage -- /home/pi/ms.1.md [13ms]
+[2022-06-24T10:14:36.707Z] > git cat-file -s 7a2d4ec4af053c2ab5107e2265e2889b16107143 [3ms]
+[2022-06-24T10:14:36.753Z] > git show --textconv :ms.1.md [12ms]
+[2022-06-24T10:14:44.565Z] > git add -A -- . [236ms]
+[2022-06-24T10:14:45.475Z] > git -c user.useConfigOnly=true commit --quiet --allow-empty-message --file - [886ms]
+[2022-06-24T10:14:45.476Z] Author identity unknown
+
+*** Please tell me who you are.
+
+Run
+
+  git config --global user.email "you@example.com"
+  git config --global user.name "Your Name"
+
+to set your account's default identity.
+Omit --global to set the identity only in this repository.
+
+fatal: no email was given and auto-detection is disabled
+[2022-06-24T10:14:45.500Z] > git config --get-all user.name [3ms]
+[2022-06-24T10:14:48.163Z] > git ls-files --stage -- /home/pi/ms.1.md [12ms]
+[2022-06-24T10:14:48.188Z] > git cat-file -s 7a2d4ec4af053c2ab5107e2265e2889b16107143 [3ms]
+[2022-06-24T10:14:48.279Z] > git show --textconv :ms.1.md [11ms]

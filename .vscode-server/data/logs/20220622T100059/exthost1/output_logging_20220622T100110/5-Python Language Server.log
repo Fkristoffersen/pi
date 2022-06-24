@@ -1,0 +1,22 @@
+[Info  - 10:01:19] (1474) Pylance language server 2022.6.20 (pyright 979d9c9e) starting
+[Info  - 10:01:19] (1474) Server root directory: /home/pi/.vscode-server/extensions/ms-python.vscode-pylance-2022.6.20/dist
+Notebook support: Legacy
+[Info  - 10:01:20] (1474) No configuration file found.
+[Info  - 10:01:20] (1474) No pyproject.toml file found.
+[Info  - 10:01:20] (1474) Setting pythonPath for service "pi": "/usr/bin/python3"
+[Warn  - 10:01:20] (1474) stubPath /home/pi/typings is not a valid directory.
+[Info  - 10:01:20] (1474) Assuming Python version 3.9
+[Info  - 10:01:20] (1474) Assuming Python platform Linux
+[Info  - 10:01:20] (1474) Searching for source files
+[Info  - 10:01:20] (1474) Found 1 source file
+[Info  - 10:01:21] (1474) Background analysis(1) root directory: /home/pi/.vscode-server/extensions/ms-python.vscode-pylance-2022.6.20/dist
+[Info  - 10:01:21] (1474) Background analysis(1) started
+[Info  - 10:01:22] (1474) Indexer background runner(2) root directory: /home/pi/.vscode-server/extensions/ms-python.vscode-pylance-2022.6.20/dist (index)
+[Info  - 10:01:22] (1474) Indexing(2) started
+[Info  - 10:01:27] (1474) [IDX(2)] Long operation: binding: /usr/lib/python3/dist-packages/numpy/__init__.py (2180ms)
+[Info  - 10:01:28] (1474) [IDX(2)] Long operation: index execution environment /home/pi (4559ms)
+[Info  - 10:01:28] (1474) [IDX(2)] Long operation: index libraries /home/pi (6065ms)
+[Info  - 10:01:28] (1474) Indexer done(2). indexed 431 files
+[Info  - 10:01:28] (1474) [BG(1)] Long operation: binding: /usr/lib/python3/dist-packages/numpy/__init__.py (3565ms)
+[Info  - 10:01:29] (1474) [BG(1)] Long operation: getSemanticTokens full at /home/pi/main.py (7964ms)
+[Info  - 10:36:49] (1474) [FG] Long operation: binding: /usr/lib/python3/dist-packages/numpy/__init__.py (3565ms)
